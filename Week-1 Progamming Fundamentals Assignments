@@ -1,0 +1,90 @@
+// Name - MD Hasan Tanjim, Number - 200562452
+using System;
+
+class Program {
+    static void Main() {
+        Console.Write("Please enter your name: ");
+        string name = Console.ReadLine();
+        Console.WriteLine("Hello, " + name + "!");
+    }
+}
+
+
+
+
+// Name - MD Hasan Tanjim, Number - 200562452
+using System;
+
+class Program {
+    static void Main() {
+        Console.Write("Enter your first name: ");
+        string firstName = Console.ReadLine();
+        Console.Write("Enter your last name: ");
+        string lastName = Console.ReadLine();
+        Console.Write("Enter your age: ");
+        int age = Convert.ToInt32(Console.ReadLine());
+        
+        Console.WriteLine($"Your name is {firstName} {lastName} and you are {age} years old.");
+    }
+}
+
+
+
+// Name - MD Hasan Tanjim, Number - 200562452
+using System;
+
+class Program {
+    static void Main() {
+        Console.Write("Enter the first number: ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter the second number: ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+
+        double sum = num1 + num2;
+        double difference = num1 - num2;
+        double product = num1 * num2;
+        double quotient = num1 / num2;
+
+        Console.WriteLine($"Sum: {sum}");
+        Console.WriteLine($"Difference: {difference}");
+        Console.WriteLine($"Product: {product}");
+        Console.WriteLine($"Quotient: {quotient}");
+    }
+}
+
+
+
+// Name - MD Hasan Tanjim, Number - 200562452
+using System;
+
+class Program {
+    static void Main() {
+        Console.Write("Enter your first name: ");
+        string firstName = Console.ReadLine();
+        Console.Write("Enter your last name: ");
+        string lastName = Console.ReadLine();
+        string fullName = firstName + " " + lastName;
+        Console.WriteLine($"Your full name is {fullName}.");
+    }
+}
+
+
+
+// Name - MD Hasan Tanjim, Number - 200562452
+using System;
+
+class Program {
+    static void Main() {
+        int predefinedAge = 25; 
+        Console.Write("Enter your age: ");
+        int userAge = Convert.ToInt32(Console.ReadLine());
+
+        if (userAge > predefinedAge) {
+            Console.WriteLine("You are older than 25.");
+        } else if (userAge < predefinedAge) {
+            Console.WriteLine("You are younger than 25.");
+        } else {
+            Console.WriteLine("You are exactly 25 years old.");
+        }
+    }
+}
